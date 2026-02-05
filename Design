@@ -1,0 +1,18 @@
+- Colours
+  - Primary Colour    -->  #5D73A3
+  - Secodary Colour   -->  #A38D5D
+  - Background Colour -->  #F9F9F7
+  - Text Colour       -->  #1A1A1A
+
+- Typeface            -->  Lexend Deca
+
+- Graphics            -->  Home Page
+                           Random Book Recommender Page
+                           Reading Flow Page
+
+- Navigability        -->  Primary navigation bar & Footer navigation
+
+
+- Main navigation bar at the top of all main pages
+        - Logo(clickable) at top left inside navigation bar.
+        - links change color when selcted / hover over them.
