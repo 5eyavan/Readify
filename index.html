@@ -1,11 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Readify - Home</title>
 </head>
+
 <body>
-    
+
+    <!-- Navigation bar -->
+    <header class="navbar">
+        <h1>Readify</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explorer.html">Explorer</a></li>
+                <li><a href="recommender.html">Recommender</a></li>
+                <li><a href="tracker.html">Tracker</a></li>
+                <li><a href="reading_flow.html">Reading Flow</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero">
+            <img src="assets/images/hero-illustration.svg" alt="A person reading book illustration">
+            <div class="hero-text">
+                <p>
+                    A simple place to explore books, track progress, get recommendations, and keep a reading flow
+                    with
+                    cozy sounds.
+                </p>
+                <blockquote class="hero-quote">
+                    A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only
+                    one.
+                    <cite class="hero-quote-author">― George R.R. Martin, A Dance with Dragons</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Featured content -->
+        <section class="author-of-the-day">
+            <img src="assets/images/authors/AudreyNiffenegger.jpg" alt="Author of the day image">
+            <h2>Audrey Niffenegger</h2>
+            <p>
+                A celebrated American author and visual artist known for blending fantasy elements with emotional,
+                character-driven narratives. She is best known for her debut novel, The Time Traveler's Wife (2003),
+                which became an international bestseller. Based in Chicago, she is also a professor and printmaker, with
+                work including illustrated novels like Raven Girl.
+            </p>
+            <div>
+                <a href="https://en.wikipedia.org/wiki/Audrey_Niffenegger" target="_blank">
+                    <img src="assets/images/icons/wikipedia-w-brands-solid-full.svg" alt="Wikipedia Logo">
+                </a>
+                <a href="https://x.com/AANiffenegger" target="_blank">
+                    <img src="assets/images/icons/x-twitter-brands-solid-full.svg" alt="X Logo">
+                </a>
+                <button type="button">Read their books</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with links and newsletter subscription -->
+    <footer>
+        <div>
+            <h1>Readify</h1>
+            <p>A platform which encourages reading by offering book recommendations, tools for readers, and
+                interactive features.</p>
+        </div>
+        <div>
+            <h4>Explore</h4>
+            <ul>
+                <li><a href="explorer.html">Explorer</a></li>
+                <li><a href="recommender.html">Recommender</a></li>
+                <li><a href="tracker.html">Tracker</a></li>
+                <li><a href="reading_flow.html">Reading Flow</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Social Media</h4>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">FaceBook</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://x.com/" target="_blank">X</a></li>
+                <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Subscribe to our newsletter</h4>
+            <form>
+                <label for="subscriber-email">
+                    Email
+                    <input name="subscriber-email" id="subscriber-email" type="email" placeholder="Your Email Address"
+                        required>
+                </label>
+                <label for="subscribe-consent">
+                    <input type="checkbox" id="subscribe-consent" value="yes" required>
+                    I agree to share my email.
+                </label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </footer>
 </body>
+
 </html>
