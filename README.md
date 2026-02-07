@@ -8,17 +8,18 @@ A platform that encourages reading by offering book recommendations, tools for r
 ![](./palette.svg)
 
 ### Wireframes (Tool used : Balsamiq Wireframes)
-![](wireframes\Desktop - Home Page.png)
-![](wireframes\Mobile - Home Page.png)
-![](wireframes\Desktop - Book Explorer Page.png)
-![](wireframes\Mobile - Book Explorer Page.png)
-![](wireframes\Desktop - Book card Modal.png)
-![](wireframes\Mobile - Book card Modal copy.png)
-![](wireframes\Desktop - Reading Progress Tracker.png)
-![](wireframes\Mobile - Reading Progress Tracker.png)
-![](wireframes\Desktop - Random Book Recommender.png)
-![](wireframes\Mobile - Random Book Recommender copy.png)
-![](wireframes\Desktop - Reading Flow Page.png)
-![](wireframes\Mobile - Reading Flow Page.png)
-![](wireframes\Desktop - Feedback Page.png)
-![](wireframes\Mobile - Feedback Page .png)
+<img src="wireframes/Desktop - Home Page.png">
+<img src="wireframes/Mobile - Home Page.png">
+<img src="wireframes/Desktop - Book Explorer Page.png">
+<img src="wireframes/Mobile - Book Explorer Page.png">
+<img src="wireframes/Desktop - Book card Modal.png">
+<img src="wireframes/Mobile - Book card Modal copy.png">
+<img src="wireframes/Desktop - Reading Progress Tracker.png">
+<img src="wireframes/Mobile - Reading Progress Tracker.png">
+<img src="wireframes/Desktop - Random Book Recommender.png">
+<img src="wireframes/Mobile - Random Book Recommender copy.png">
+<img src="wireframes/Desktop - Reading Flow Page.png">
+<img src="wireframes/Mobile - Reading Flow Page.png">
+<img src="wireframes/Desktop - Feedback Page.png">
+<img src="wireframes/Mobile - Feedback Page .png">
+
