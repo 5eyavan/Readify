@@ -2,7 +2,7 @@
    Readify - script.js
    - One file for all pages
    - localStorage + JSON
-   - Simple naming (class practical style)
+   - Simple naming
 ============================ */
 
 
@@ -106,7 +106,6 @@ function addBookToCompleted(bookId) {
 
 /* ============================
    Helper: Load JSON file
-   (Works with Live Server / hosted)
 ============================ */
 
 function loadJsonFile(jsonPath, successFunction, failFunction) {
@@ -941,7 +940,7 @@ function getSeriesTitlesOneList(book) {
     return uniqueList;
 }
 
-// UPDATED: Find book by ID (works with number or string)
+// Find book by ID 
 function findBookById(idText) {
 
     let searchingId = String(idText || "").trim().toLowerCase();
