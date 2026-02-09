@@ -11,26 +11,28 @@ A platform that encourages reading by offering book recommendations, tools for r
 <p>
 <img src="wireframes/Desktop - Home Page.png" width="30%">
 <img src="wireframes/Mobile - Home Page.png" width="10%">
-</p>
-<p>
 <img src="wireframes/Desktop - Book Explorer Page.png" width="30%">
 <img src="wireframes/Mobile - Book Explorer Page.png" width="10%">
 <img src="wireframes/Desktop - Book card Modal.png" width="30%">
 <img src="wireframes/Mobile - Book card Modal copy.png" width="10%">
-</p>
-<p>
 <img src="wireframes/Desktop - Reading Progress Tracker.png" width="30%">
 <img src="wireframes/Mobile - Reading Progress Tracker.png" width="10%">
-</p>
-<p>
 <img src="wireframes/Desktop - Random Book Recommender.png" width="30%">
 <img src="wireframes/Mobile - Random Book Recommender copy.png" width="10%">
-</p>
-<p>
 <img src="wireframes/Desktop - Reading Flow Page.png" width="30%">
 <img src="wireframes/Mobile - Reading Flow Page.png" width="10%">
-</p>
-<p>
 <img src="wireframes/Desktop - Feedback Page.png" width="30%">
 <img src="wireframes/Mobile - Feedback Page .png" width="10%">
 </p>
+
+### Credits
+| Images                                                                                             | Credits                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| assets\images\authors\AudreyNiffenegger.jpg                                                        | By Michael Strong - Michael Strong, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=8017599">Link</a>                                                                                                                                                                                                                                                                                                                          |
+| assets\images\authors\Grisham_John_by_C_Harrison_(cropped).jpg                                     | By <a href="//commons.wikimedia.org/w/index.php?title=User:BlakeGrady&amp;action=edit&amp;redlink=1" class="new" title="User:BlakeGrady (page does not exist)">BlakeGrady</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=137893722">Link</a>                                                                                                                      |
+| assets\images\authors\JK_Rowling_1999.jpg                                                          | By <a rel="nofollow" class="external text" href="https://www.flickr.com/people/36277035@N06">John Mathew Smith &amp; www.celebrity-photos.com</a> from Laurel Maryland, USA - <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/kingkongphoto/46147317015/">J K Rowling</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0" title="Creative Commons Attribution-Share Alike 2.0">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=76508855">Link</a>                                                      |
+| assets\images\authors\Khaled_Hosseini_(9037485339).jpg                                             | By <a rel="nofollow" class="external text" href="https://www.flickr.com/people/35056665@N00">Counse</a> - <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/cbroders/9037485339/">Khaled Hossein</a>, <a href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=71170611">Link</a>                                                                                                                                               |
+| assets\images\authors\Markus_Zusak_2019_(cropped).jpg                                              | By <a rel="nofollow" class="external text" href="https://www.flickr.com/people/162991176@N03">Library of Congress Life</a> - <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/library-of-congress-life/48684851881/">20190831EJ1103.jpg</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=102395294">Link</a>                                                                                |
+| assets\images\authors\Návštěva_Dana_Browna_v_NK_ČR_17._-_18._2025_07_(cropped).jpg                 | By Zuzana Homolka Fedorová - <a href="https://en.wikipedia.org/wiki/en:National_Library_of_the_Czech_Republic" class="extiw" title="w:en:National Library of the Czech Republic"><span title="central library of the Czech Republic">National Library of the Czech Republic</span></a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=178016306">Link</a>                                                                    |
+| assets\images\authors\Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_(cropped).jpg | By <a href="//commons.wikimedia.org/wiki/User:Kevin_Payravi" title="User:Kevin Payravi">Kevin Payravi</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=153369127">Link</a>                                                                                                                                                                                          |
+| assets\images\authors\Suzanne_Collins_David_Shankbone_2010.jpg                                     | By <a rel="nofollow" class="external text" href="https://flickr.com/people/27865228@N06">David Shankbone</a> - originally posted to <a href="//commons.wikimedia.org/wiki/Flickr" class="mw-redirect" title="Flickr">Flickr</a> as <a rel="nofollow" class="external text" href="https://flickr.com/photos/27865228@N06/4596953212">Suzanne Collins David Shankbone 2010</a>, <a href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=10415337">Link</a> |
