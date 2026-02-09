@@ -1,11 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Readify - Tracker</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="description"
+        content="Track your reading habits with Readify. Log your pages read, calculate reading speed, and estimate when you will finish your current book.">
+    <meta name="keywords"
+        content="reading tracker, reading progress, book logger, reading speed calculator, finish time estimator">
+    <meta name="author" content="Yathavan Seyavan">
+
+    <!-- Importing Lexend Deca from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-    
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1 class="logo">
+            <a class="logo-link" href="index.html">Readify</a>
+        </h1>
+
+        <!-- Mobile menu button (you can toggle .is-open on .navbar with JS) -->
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <img src="assets/images/icons/bars-solid-full.svg" alt="Menu icon">
+        </button>
+
+        <nav class="nav" aria-label="Primary navigation">
+            <ul class="navbar-list">
+                <li><a class="navbar-item" href="index.html">Home</a></li>
+                <li><a class="navbar-item" href="explorer.html">Explorer</a></li>
+                <li><a class="navbar-item" href="recommender.html">Recommender</a></li>
+                <li><a class="navbar-item active" href="#" aria-current="page">Tracker</a></li>
+                <li><a class="navbar-item" href="reading_flow.html">Reading Flow</a></li>
+                <li><a class="navbar-item" href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page heading -->
+        <section class="page-hero">
+            <h2 class="page-title">Reading Progress Tracker</h2>
+            <p class="page-subtitle">Log your reading and see your progress.</p>
+        </section>
+
+        <!-- Tracker panel -->
+        <section class="tracker-panel">
+            <!-- Left side: inputs -->
+            <div class="tracker-form">
+                <h3 class="tracker-heading">Update your progress</h3>
+
+                <form>
+                    <label for="pages-read">Pages read</label>
+                    <input id="pages-read" type="number" placeholder="e.g., 120" min="0">
+
+                    <label for="total-pages">Total pages</label>
+                    <input id="total-pages" type="number" placeholder="e.g., 300" min="1">
+
+                    <label for="reading-speed">Reading speed (pages per day)</label>
+                    <input id="reading-speed" type="number" placeholder="e.g., 20" min="1">
+
+                    <button type="button">Save</button>
+                </form>
+            </div>
+
+            <!-- Divider line (desktop only) -->
+            <div class="tracker-divider" aria-hidden="true"></div>
+
+            <!-- Right side: progress display -->
+            <div class="tracker-progress">
+                <h3 class="tracker-heading">Progress</h3>
+
+                <p class="progress-percent">0%</p>
+
+                <div class="progress-bar" role="progressbar" aria-label="Progress bar">
+                    <div class="progress-fill" style="width: 0%;"></div>
+                </div>
+
+                <div class="progress-stats">
+                    <p><strong>0</strong> pages read</p>
+                    <p><strong>0</strong> pages left</p>
+                    <p>Finish in <strong>--</strong></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- left half (1st + 2nd + 3rd) -->
+            <div class="footer-left">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">Readify</h2>
+                    <p class="footer-text">
+                        A platform which encourages reading by offering book recommendations, tools for readers, and
+                        interactive features.
+                    </p>
+                </div>
+
+                <div class="footer-explore">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="explorer.html">Explorer</a></li>
+                        <li><a href="recommender.html">Recommender</a></li>
+                        <li><a href="tracker.html">Tracker</a></li>
+                        <li><a href="reading_flow.html">Reading Flow</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="https://x.com/" target="_blank">X</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- right half (4th) -->
+            <div class="footer-right">
+                <h3>Subscribe to our newsletter</h3>
+
+                <form>
+                    <label for="subscriber-email">
+                        Email
+                        <input name="subscriber-email" id="subscriber-email" type="email"
+                            placeholder="Your Email Address" required>
+                    </label>
+
+                    <label for="subscribe-consent" class="footer-consent">
+                        <input type="checkbox" id="subscribe-consent" value="yes" required>
+                        I agree to share my email.
+                    </label>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
 </body>
+
 </html>

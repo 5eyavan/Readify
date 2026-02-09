@@ -1,11 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Readify - Feedback</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="description"
+        content="Have questions or suggestions for Readify? Send us a message or browse our Frequently Asked Questions (FAQ).">
+    <meta name="keywords" content="Readify feedback, contact us, FAQ, reading app support, questions">
+    <meta name="author" content="Yathavan Seyavan">
+
+    <!-- Importing Lexend Deca from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-    
+
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1 class="logo">
+            <a class="logo-link" href="index.html">Readify</a>
+        </h1>
+
+        <!-- Mobile menu button (you can toggle .is-open on .navbar with JS) -->
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <img src="assets/images/icons/bars-solid-full.svg" alt="Menu icon">
+        </button>
+
+        <nav class="nav" aria-label="Primary navigation">
+            <ul class="navbar-list">
+                <li><a class="navbar-item" href="index.html">Home</a></li>
+                <li><a class="navbar-item" href="explorer.html">Explorer</a></li>
+                <li><a class="navbar-item" href="recommender.html">Recommender</a></li>
+                <li><a class="navbar-item" href="tracker.html">Tracker</a></li>
+                <li><a class="navbar-item" href="reading_flow.html">Reading Flow</a></li>
+                <li><a class="navbar-item active" href="#" aria-current="page">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page heading -->
+        <section class="page-hero">
+            <h2 class="page-title">Feedback</h2>
+            <p class="page-subtitle">Send a message or check the FAQ.</p>
+        </section>
+
+        <!-- Desktop: FAQ left, Form right | Mobile: Form first, FAQ after -->
+        <div class="feedback-layout">
+            <!-- FAQ -->
+            <section class="faq" aria-label="Frequently asked questions">
+                <h3 class="section-title">FAQ</h3>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>How do recommendations work?</span>
+                        <img class="faq-chevron" src="assets/images/icons/circle-chevron-down.svg"
+                            alt="circle drop down icon" aria-hidden="true">
+                    </summary>
+                    <p class="faq-answer">
+                        Recommendations are picked based on the filters you choose. You can refine them anytime.
+                    </p>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>Can I track more than one book?</span>
+                        <img class="faq-chevron" src="assets/images/icons/circle-chevron-down.svg"
+                            alt="circle drop down icon" aria-hidden="true">
+                    </summary>
+                    <p class="faq-answer">
+                        Yes. You can save multiple books and update progress for each one.
+                    </p>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>Does Reading Flow need an account?</span>
+                        <img class="faq-chevron" src="assets/images/icons/circle-chevron-down.svg"
+                            alt="circle drop down icon" aria-hidden="true">
+                    </summary>
+                    <p class="faq-answer">
+                        No account is needed. You can just choose a sound and start reading.
+                    </p>
+                </details>
+
+                <details class="faq-item" open>
+                    <summary class="faq-question">
+                        <span>How is my email used?</span>
+                        <img class="faq-chevron" src="assets/images/icons/circle-chevron-down.svg"
+                            alt="circle drop down icon" aria-hidden="true">
+                    </summary>
+                    <p class="faq-answer">
+                        Your email is only used for the newsletter and updates you agree to receive.
+                    </p>
+                </details>
+            </section>
+
+            <!-- Feedback form -->
+            <section class="feedback-card" aria-label="Feedback form">
+                <h3 class="section-title">Send a message</h3>
+
+                <form class="feedback-form">
+                    <label for="fb-name">Name</label>
+                    <input id="fb-name" name="fb-name" type="text" placeholder="Your name" required>
+
+                    <label for="fb-email">Email</label>
+                    <input id="fb-email" name="fb-email" type="email" placeholder="Your email" required>
+
+                    <label for="fb-message">Message</label>
+                    <textarea id="fb-message" name="fb-message" rows="7" placeholder="Write your message..."
+                        required></textarea>
+
+                    <button type="submit" class="feedback-submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- left half (1st + 2nd + 3rd) -->
+            <div class="footer-left">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">Readify</h2>
+                    <p class="footer-text">
+                        A platform which encourages reading by offering book recommendations, tools for readers, and
+                        interactive features.
+                    </p>
+                </div>
+
+                <div class="footer-explore">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="explorer.html">Explorer</a></li>
+                        <li><a href="recommender.html">Recommender</a></li>
+                        <li><a href="tracker.html">Tracker</a></li>
+                        <li><a href="reading_flow.html">Reading Flow</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="https://x.com/" target="_blank">X</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- right half (4th) -->
+            <div class="footer-right">
+                <h3>Subscribe to our newsletter</h3>
+
+                <form>
+                    <label for="subscriber-email">
+                        Email
+                        <input name="subscriber-email" id="subscriber-email" type="email"
+                            placeholder="Your Email Address" required>
+                    </label>
+
+                    <label for="subscribe-consent" class="footer-consent">
+                        <input type="checkbox" id="subscribe-consent" value="yes" required>
+                        I agree to share my email.
+                    </label>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>

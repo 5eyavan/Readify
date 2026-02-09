@@ -1,11 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Readify - Explorer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="description"
+        content="Explore a vast collection of books on Readify. Search by title, filter by genre, and discover your next read with detailed book info.">
+    <meta name="keywords"
+        content="book explorer, search books, book database, fiction, fantasy, book synopsis, Readify library">
+    <meta name="author" content="Yathavan Seyavan">
+
+    <!-- Importing Lexend Deca from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-    
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1 class="logo">
+            <a class="logo-link" href="index.html">Readify</a>
+        </h1>
+
+        <!-- Mobile menu button (you can toggle .is-open on .navbar with JS) -->
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <img src="assets/images/icons/bars-solid-full.svg" alt="Menu icon">
+        </button>
+
+        <nav class="nav" aria-label="Primary navigation">
+            <ul class="navbar-list">
+                <li><a class="navbar-item" href="index.html">Home</a></li>
+                <li><a class="navbar-item active" href="#" aria-current="page">Explorer</a></li>
+                <li><a class="navbar-item" href="recommender.html">Recommender</a></li>
+                <li><a class="navbar-item" href="tracker.html">Tracker</a></li>
+                <li><a class="navbar-item" href="reading_flow.html">Reading Flow</a></li>
+                <li><a class="navbar-item" href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page heading (centered like wireframe) -->
+        <section class="page-hero">
+            <h2 class="page-title">Book Explorer</h2>
+            <p class="page-subtitle">Search, filter, and browse books.</p>
+        </section>
+
+        <!-- Search bar -->
+        <div class="explorer-controls">
+            <form class="explorer-search" role="search">
+                <label class="sr-only" for="book-search">Search books</label>
+                <input id="book-search" type="search" placeholder="Search">
+            </form>
+
+            <!-- Filter buttons -->
+            <div class="filter-bar">
+                <button class="filter-btn" type="button">All</button>
+                <button class="filter-btn" type="button">Fiction</button>
+                <button class="filter-btn" type="button">Fantasy</button>
+                <button class="filter-btn" type="button">Mystery</button>
+                <button class="filter-btn" type="button">Romance</button>
+                <button class="filter-btn" type="button">History</button>
+                <button class="filter-btn" type="button">Self-help</button>
+            </div>
+        </div>
+
+        <!-- Book grid -->
+        <section class="book-grid" aria-label="Book results">
+            <!-- Card 1 -->
+            <article class="book-card">
+                <div class="book-cover" aria-hidden="true">Book Cover</div>
+                <div class="book-info">
+                    <h3 class="book-title">Book Title</h3>
+                    <p class="book-author">Author Name</p>
+                </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="book-card">
+                <div class="book-cover" aria-hidden="true">Book Cover</div>
+                <div class="book-info">
+                    <h3 class="book-title">Book Title</h3>
+                    <p class="book-author">Author Name</p>
+                </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="book-card">
+                <div class="book-cover" aria-hidden="true">Book Cover</div>
+                <div class="book-info">
+                    <h3 class="book-title">Book Title</h3>
+                    <p class="book-author">Author Name</p>
+                </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="book-card">
+                <div class="book-cover" aria-hidden="true">Book Cover</div>
+                <div class="book-info">
+                    <h3 class="book-title">Book Title</h3>
+                    <p class="book-author">Author Name</p>
+                </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="book-card">
+                <div class="book-cover" aria-hidden="true">Book Cover</div>
+                <div class="book-info">
+                    <h3 class="book-title">Book Title</h3>
+                    <p class="book-author">Author Name</p>
+                </div>
+            </article>
+
+            <!-- Card 6 -->
+            <article class="book-card">
+                <div class="book-cover" aria-hidden="true">Book Cover</div>
+                <div class="book-info">
+                    <h3 class="book-title">Book Title</h3>
+                    <p class="book-author">Author Name</p>
+                </div>
+            </article>
+
+            <!-- Card 7 -->
+            <article class="book-card">
+                <div class="book-cover" aria-hidden="true">Book Cover</div>
+                <div class="book-info">
+                    <h3 class="book-title">Book Title</h3>
+                    <p class="book-author">Author Name</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- left half (1st + 2nd + 3rd) -->
+            <div class="footer-left">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">Readify</h2>
+                    <p class="footer-text">
+                        A platform which encourages reading by offering book recommendations, tools for readers, and
+                        interactive features.
+                    </p>
+                </div>
+
+                <div class="footer-explore">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="explorer.html">Explorer</a></li>
+                        <li><a href="recommender.html">Recommender</a></li>
+                        <li><a href="tracker.html">Tracker</a></li>
+                        <li><a href="reading_flow.html">Reading Flow</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="https://x.com/" target="_blank">X</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- right half (4th) -->
+            <div class="footer-right">
+                <h3>Subscribe to our newsletter</h3>
+
+                <form>
+                    <label for="subscriber-email">
+                        Email
+                        <input name="subscriber-email" id="subscriber-email" type="email"
+                            placeholder="Your Email Address" required>
+                    </label>
+
+                    <label for="subscribe-consent" class="footer-consent">
+                        <input type="checkbox" id="subscribe-consent" value="yes" required>
+                        I agree to share my email.
+                    </label>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>

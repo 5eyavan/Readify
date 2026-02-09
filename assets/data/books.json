@@ -1,0 +1,121 @@
+[
+  {
+    "id": "sea-prayer",
+    "title": "Sea Prayer",
+    "authorId": "khaled-hosseini",
+    "author": "Khaled Hosseini",
+    "genre": "Fiction",
+    "pages": 48,
+    "cover": "assets/images/books-cover/SEA-PRAYER.US-cover-653x1024.jpg",
+    "synopsis": "A father writes to his young son on the night before their dangerous journey across the sea. He remembers their old life before war changed everything, and he holds on to hope during the fear and uncertainty.",
+    "prequels": [],
+    "sequels": [],
+    "buyLink": "https://a.co/d/0gL4MjRM",
+    "reviews": [
+      { "reviewer": "Reader A", "rating": 5, "comment": "Short, emotional, and memorable." },
+      { "reviewer": "Reader B", "rating": 4, "comment": "Simple writing but powerful message." }
+    ]
+  },
+  {
+    "id": "and-the-mountains-echoed",
+    "title": "And the Mountains Echoed",
+    "authorId": "khaled-hosseini",
+    "author": "Khaled Hosseini",
+    "genre": "Fiction",
+    "pages": 448,
+    "cover": "assets/images/books-cover/And_the_Mountains_Echoed-paperback-656x10242.jpg",
+    "synopsis": "A story that follows one family across generations and countries. It focuses on love, sacrifice, and the long effects of choices made inside families.",
+    "prequels": [],
+    "sequels": [],
+    "buyLink": "https://a.co/d/09P0UiB7",
+    "reviews": [
+      { "reviewer": "Reader A", "rating": 4, "comment": "Many characters, but the emotion stays strong." },
+      { "reviewer": "Reader B", "rating": 5, "comment": "Beautiful storytelling and themes." }
+    ]
+  },
+  {
+    "id": "a-thousand-splendid-suns",
+    "title": "A Thousand Splendid Suns",
+    "authorId": "khaled-hosseini",
+    "author": "Khaled Hosseini",
+    "genre": "Fiction",
+    "pages": 432,
+    "cover": "assets/images/books-cover/AThousandSplendidSuns-cvr-649x1024.jpg",
+    "synopsis": "Two Afghan women, born in different times, are forced into the same harsh reality. Their bond grows through loss and survival, showing courage and love during conflict.",
+    "prequels": [],
+    "sequels": [],
+    "buyLink": "https://a.co/d/057omKgb",
+    "reviews": [
+      { "reviewer": "Reader A", "rating": 5, "comment": "Emotional and very impactful." },
+      { "reviewer": "Reader B", "rating": 3, "comment": "Hard story, but worth reading." }
+    ]
+  },
+  {
+    "id": "the-kite-runner",
+    "title": "The Kite Runner",
+    "authorId": "khaled-hosseini",
+    "author": "Khaled Hosseini",
+    "genre": "Fiction",
+    "pages": 371,
+    "cover": "assets/images/books-cover/The-Kite-Runner-20th-Anniversary-Hosseini-1017x1536.jpeg",
+    "synopsis": "A story of friendship, betrayal, and regret, set across major changes in Afghanistan. It explores guilt and the search for redemption over many years.",
+    "prequels": [],
+    "sequels": [],
+    "buyLink": "https://a.co/d/05yIYDmp",
+    "reviews": [
+      { "reviewer": "Reader A", "rating": 4, "comment": "Strong plot and deep themes." },
+      { "reviewer": "Reader B", "rating": 4, "comment": "Very human and believable." }
+    ]
+  },
+  {
+    "id": "hp-philosophers-stone",
+    "title": "Harry Potter and the Philosopher’s Stone",
+    "authorId": "jk-rowling",
+    "author": "J. K. Rowling",
+    "genre": "Fantasy",
+    "pages": 223,
+    "cover": "assets/images/books-cover/Harry_Potter_and_the_Philosopher_s_Stone.jpg",
+    "synopsis": "Harry discovers he is a wizard and enters Hogwarts for the first time. He learns about friendship, danger, and the hidden truth behind his past.",
+    "prequels": [],
+    "sequels": ["hp-chamber-of-secrets"],
+    "buyLink": "https://harrypotter.bloomsbury.com/uk/harry-potter-and-the-philosophers-stone-9781408855652/",
+    "reviews": [
+      { "reviewer": "Reader A", "rating": 5, "comment": "A classic start to the series." },
+      { "reviewer": "Reader B", "rating": 4, "comment": "Fun, simple, and easy to follow." }
+    ]
+  },
+  {
+    "id": "hp-chamber-of-secrets",
+    "title": "Harry Potter and the Chamber of Secrets",
+    "authorId": "jk-rowling",
+    "author": "J. K. Rowling",
+    "genre": "Fantasy",
+    "pages": 251,
+    "cover": "assets/images/books-cover/Harry_Potter_and_the_Chamber_of_Secrets.jpg",
+    "synopsis": "Back at Hogwarts, strange attacks begin and students are found frozen. Harry investigates an old mystery linked to the school’s past.",
+    "prequels": ["hp-philosophers-stone"],
+    "sequels": ["hp-prisoner-of-azkaban"],
+    "buyLink": "https://www.sarasavi.lk/product/harry-potter-and-the-chamber-of-secret-1408855666",
+    "reviews": [
+      { "reviewer": "Reader A", "rating": 4, "comment": "Good mystery and darker tone." },
+      { "reviewer": "Reader B", "rating": 5, "comment": "Very engaging plot." }
+    ]
+  },
+  {
+    "id": "hp-prisoner-of-azkaban",
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "authorId": "jk-rowling",
+    "author": "J. K. Rowling",
+    "genre": "Fantasy",
+    "pages": 317,
+    "cover": "assets/images/books-cover/Harry_Potter_and_the_Prisoner_of_Azkaban.jpg",
+    "synopsis": "A dangerous prisoner escapes, and Hogwarts is guarded by Dementors. Harry learns new truths about his family and the past.",
+    "prequels": ["hp-chamber-of-secrets"],
+    "sequels": [],
+    "buyLink": "https://shop.scholastic.com/parent-ecommerce/books/harry-potter-and-the-prisoner-of-azkaban-9780439136358.html",
+    "reviews": [
+      { "reviewer": "Reader A", "rating": 5, "comment": "Best characters and best twist." },
+      { "reviewer": "Reader B", "rating": 4, "comment": "More mature and exciting." }
+    ]
+  }
+]

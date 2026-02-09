@@ -1,0 +1,26 @@
+[
+  {
+    "id": "audrey-niffenegger",
+    "name": "Audrey Niffenegger",
+    "bio": "A celebrated American author and visual artist known for blending fantasy elements with emotional, character-driven narratives. She is best known for her debut novel, The Time Traveler's Wife (2003), which became an international bestseller. Based in Chicago, she is also a professor and printmaker, with work including illustrated novels like Raven Girl.",
+    "wiki": "https://en.wikipedia.org/wiki/Audrey_Niffenegger",
+    "x": "https://x.com/AANiffenegger",
+    "image": "assets/images/authors/AudreyNiffenegger.jpg"
+  },
+  {
+    "id": "jk-rowling",
+    "name": "J. K. Rowling",
+    "bio": "Joanne Rowling, better known by her pen name J. K. Rowling, is a British novelist best known for writing Harry Potter, a seven-volume series about a young wizard. Published from 1997 to 2007, the fantasy novels are the best-selling book series in history, with over 600 million copies sold.",
+    "wiki": "https://en.wikipedia.org/wiki/J._K._Rowling",
+    "x": "https://x.com/jk_rowling",
+    "image": "assets/images/authors/JK_Rowling_1999.jpg"
+  },
+  {
+    "id": "khaled-hosseini",
+    "name": "Khaled Hosseini",
+    "bio": "Khaled Hosseini or Khalid Hussein is an Afghan and American novelist, UNHCR goodwill ambassador, and former physician.[1][2] His debut novel The Kite Runner (2003) was a critical and commercial success; the book and his subsequent novels have all been at least partially set in Afghanistan and have featured an Afghan as the protagonist. Hosseini's novels have spread awareness about Afghanistan's people and culture",
+    "wiki": "https://en.wikipedia.org/wiki/Khaled_Hosseini",
+    "x": "https://x.com/khaledhosseini",
+    "image": "assets/images/authors/Khaled_Hosseini_(9037485339).jpg"
+  }
+]

@@ -1,11 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Readify - Recommender</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="description"
+        content="Not sure what to read next? Use the Readify Random Book Recommender to find a book based on genre and length preference.">
+    <meta name="keywords"
+        content="book recommender, random book picker, reading suggestions, book finder, what to read next">
+    <meta name="author" content="Yathavan Seyavan">
+
+    <!-- Importing Lexend Deca from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-    
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1 class="logo">
+            <a class="logo-link" href="index.html">Readify</a>
+        </h1>
+
+        <!-- Mobile menu button (you can toggle .is-open on .navbar with JS) -->
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <img src="assets/images/icons/bars-solid-full.svg" alt="Menu icon">
+        </button>
+
+        <nav class="nav" aria-label="Primary navigation">
+            <ul class="navbar-list">
+                <li><a class="navbar-item" href="index.html">Home</a></li>
+                <li><a class="navbar-item" href="explorer.html">Explorer</a></li>
+                <li><a class="navbar-item active" href="#" aria-current="page">Recommender</a></li>
+                <li><a class="navbar-item" href="tracker.html">Tracker</a></li>
+                <li><a class="navbar-item" href="reading_flow.html">Reading Flow</a></li>
+                <li><a class="navbar-item" href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page heading -->
+        <section class="page-hero">
+            <h2 class="page-title">Random Book Recommender</h2>
+            <p class="page-subtitle">Pick a mood and get a quick book suggestion.</p>
+        </section>
+
+        <!-- Controls bar (desktop: one row, mobile: stacked like wireframe) -->
+        <div class="reco-controls">
+            <form class="reco-form">
+                <div class="reco-sentence">
+                    <span>Pick a</span>
+
+                    <label for="reco-genre" class="sr-only">Genre</label>
+                    <select id="reco-genre">
+                        <option value="">Any</option>
+                        <option>Fiction</option>
+                        <option>Fantasy</option>
+                        <option>Mystery</option>
+                        <option>Romance</option>
+                    </select>
+
+                    <span>book with</span>
+
+                    <label for="reco-length" class="sr-only">Length</label>
+                    <select id="reco-length">
+                        <option value="">Any</option>
+                        <option>Short</option>
+                        <option>Medium</option>
+                        <option>Long</option>
+                    </select>
+
+                    <span>length,</span>
+
+                    <button class="reco-phrase-btn" type="button">recommend</button><span>.</span>
+                </div>
+            </form>
+        </div>
+
+        <!-- Recommendation card -->
+        <section class="reco-card">
+            <div class="reco-cover" aria-hidden="true">Book Cover</div>
+
+            <div class="reco-details">
+                <div class="reco-top">
+                    <h3 class="reco-title">Book Title</h3>
+                    <div class="reco-rating" role="img" aria-label="Star rating">★ ★ ★ ★ ☆</div>
+                </div>
+
+                <p class="reco-author">Author Name</p>
+
+                <p class="reco-desc">
+                    This is a short description area. You can replace this with real data later using JavaScript.
+                    Keep it readable and not too long.
+                </p>
+
+                <div class="reco-actions">
+                    <button type="button">Save</button>
+                    <button type="button">Another</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- left half (1st + 2nd + 3rd) -->
+            <div class="footer-left">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">Readify</h2>
+                    <p class="footer-text">
+                        A platform which encourages reading by offering book recommendations, tools for readers, and
+                        interactive features.
+                    </p>
+                </div>
+
+                <div class="footer-explore">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="explorer.html">Explorer</a></li>
+                        <li><a href="recommender.html">Recommender</a></li>
+                        <li><a href="tracker.html">Tracker</a></li>
+                        <li><a href="reading_flow.html">Reading Flow</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="https://x.com/" target="_blank">X</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- right half (4th) -->
+            <div class="footer-right">
+                <h3>Subscribe to our newsletter</h3>
+
+                <form>
+                    <label for="subscriber-email">
+                        Email
+                        <input name="subscriber-email" id="subscriber-email" type="email"
+                            placeholder="Your Email Address" required>
+                    </label>
+
+                    <label for="subscribe-consent" class="footer-consent">
+                        <input type="checkbox" id="subscribe-consent" value="yes" required>
+                        I agree to share my email.
+                    </label>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
